@@ -42,7 +42,14 @@ button:hover{
     word-wrap: break-word;
     word-break: break-all;
 }
-.operand{
+.previous-operand{
+    color: white;
+    font-size: 1.5em;
+}
+.current-operand{
     color: white;
     font-size: 3em;
+}
+.yellow{
+    background-color: yellow;
 }

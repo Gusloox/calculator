@@ -14,10 +14,12 @@
     <div class="container-grid">
 
         <div class="display">
-            <div class="operand" data-current-operand>213</div>
+            <div class="previous-operand" data-previous-operand></div>
+            <div class="current-operand" data-current-operand></div>
         </div>
         <button id="clear" class="span-two" data-delete>DEL</button>
-        <button id="clear" class="operator" data-all-clear>C</button>
+        <button id="clear" class="span" data-all-clear>C</button>
+        <button id="div" class="operator" data-operation>/</button>
         <button data-number id="1" class="number">1</button>
         <button data-number id="2" class="number">2</button>
         <button data-number id="3" class="number">3</button>
@@ -30,10 +32,10 @@
         <button data-number id="8" class="number">8</button>
         <button data-number id="9" class="number">9</button>
         <button id="sub" class="operator" data-operation>-</button>
+        <button id="div" data-number class="operator" data-operation>.</button>
         <button data-number id="0" class="number">0</button>
-        <button id="div" class="operator" data-operation>.</button>
-        <button id="div" class="operator" data-operation>/</button>
-        <button class="span-two" data-equals>=</button>
+        <button class="span-two yellow" data-equals>=</button>
+        
 
 
         <script src="script.js"></script>
