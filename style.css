@@ -2,11 +2,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+button{
+    margin: 5px;
+    background: #11E6FF;
+}
 body{
     margin: 0px;
     padding: 0px;
-    background-color: aqua;
+    background: linear-gradient(#115673, aqua);
 }
 .container-grid{
     display:grid;
@@ -20,20 +23,25 @@ body{
 .container-grid > button{
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: 1px solid black;
+    border-radius: 20%;
     outline: none;
 }
 button:hover{
     background-color: white;
 }
 
-.span-two{
+.span-two-column{
     grid-column:span 2;
+}
+.span-two-row{
+    grid-row:span 2;
 }
 
 .display{
     grid-column: 1/-1;
     background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20%;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -51,5 +59,12 @@ button:hover{
     font-size: 3em;
 }
 .yellow{
-    background-color: yellow;
+    background-color: #11E6B3;
+}
+
+#delete{
+    background-color: #1156B3;
+}
+#delete:hover{
+    background-color: white;
 }
